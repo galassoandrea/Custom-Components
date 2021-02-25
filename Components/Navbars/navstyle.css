@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+/** Dark version */
+
+.bg-1 {
+  background-color: #222831;
+  padding: 50px 0 50px 0;
+}
+
+.nav-color-change-dark {
+  display: flex;
+  text-align: center;
+  background-color: #393e46;
+  margin: 20px auto auto auto;
+  width: 40%;
+  border-radius: 40px;
+}
+
+.navlink {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.first-color , .second-color , .third-color , .fourth-color {
+  width: 25%;
+}
+
+.first-color:hover {
+  border-radius: 40px;
+  background-color: #ffd369;
+}
+
+.second-color:hover {
+  border-radius: 40px;
+  background-color: #9ad3bc;
+}
+
+.third-color:hover {
+  border-radius: 40px;
+  background-color: #583d72;
+}
+
+.fourth-color:hover {
+  border-radius: 40px;
+  background-color: #93abd3;
+}
+
+.home , .who-i-am , .contacts , .my-works {
+  padding: 0;
+}
+
+/** Ligth Version */
+
+.bg-2 {
+  background-color: #FFFFFF;
+  padding: 50px 0 50px 0;
+}
+
+.nav-color-change-ligth {
+  display: flex;
+  text-align: center;
+  background-color: #fad5ad;
+  margin: 20px auto auto auto;
+  width: 40%;
+  border-radius: 40px;
+}
+
+/** First variant */
+
+.bg-3 {
+  background-color: #407088;
+  padding: 50px 0 50px 0;
+}
+
+.nav-color-change-first-variant {
+  display: flex;
+  text-align: center;
+  background-color: #709fb0;
+  margin: 20px auto auto auto;
+  width: 40%;
+  border-radius: 40px;
+}
+
+/** Second variant */
+
+.bg-4 {
+  background-color: #d2f5e3;
+  padding: 50px 0 50px 0;
+}
+
+.nav-color-change-second-variant {
+  display: flex;
+  text-align: center;
+  background-color: #94b4a4;
+  margin: 20px auto auto auto;
+  width: 40%;
+  border-radius: 40px;
+}
