@@ -1,0 +1,276 @@
+
+
+/** Blue Card Version */
+
+.cv-card-b {
+  display: inline-block;
+  text-align: center;
+  background-color: #383e56;
+  margin: 0 10px;
+  width: 20%;
+  padding: 20px 20px 25px 20px;
+  border-radius: 40px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ccf2f4;
+}
+
+.card-body {
+  margin-bottom: 30px;
+}
+
+.profile-img {
+  width: 35%;
+}
+
+.profile-name-b {
+  font-family: 'Work Sans', sans-serif;
+  color: #79a3b1;
+  font-size: 1.5rem;
+}
+
+.contact-link-b {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 8px 12px 8px 12px;
+  background-color: #79a3b1;
+  border-radius: 20px;
+  color: #383e56;
+  display: inline-block;
+}
+
+.contact-link-b:hover , .social-b:hover {
+  background-color: #ccf2f4;
+}
+
+.contact-link-b:active , .social-b:active {
+  transform: translateY(3px);
+}
+
+.secondary-par {
+  margin: 40px auto 20px auto;
+  font-size: 0.8rem;
+}
+
+.social-b {
+  background-color: #79a3b1;
+  margin: auto 5px auto 5px;
+  border-radius: 20px;
+  display: inline-block;
+  width: 25%;
+}
+
+.facebook-b , .twitter-b , .linkedin-b {
+  padding: 2px 0;
+  width: 25%;
+  color: #383e56;
+}
+
+/** Red Card Version */
+.cv-card-r {
+  display: inline-block;
+  text-align: center;
+  background-color: #a9294f;
+  margin: 0 10px;
+  width: 20%;
+  padding: 20px 20px 25px 20px;
+  border-radius: 40px;
+  font-family: 'Montserrat', sans-serif;
+  color: #f6d887;
+}
+
+.card-body {
+  margin-bottom: 30px;
+}
+
+.profile-img {
+  width: 35%;
+}
+
+.profile-name-r {
+  font-family: 'Work Sans', sans-serif;
+  color: #ecb390;
+  font-size: 1.5rem;
+}
+
+.contact-link-r {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 8px 12px 8px 12px;
+  background-color: #ecb390;
+  border-radius: 20px;
+  color: #a9294f;
+  display: inline-block;
+}
+
+.contact-link-r:hover , .social-r:hover {
+  background-color: #f6d887;
+}
+
+.contact-link-r:active , .social-r:active {
+  transform: translateY(3px);
+}
+
+.secondary-par {
+  margin: 40px auto 20px auto;
+  font-size: 0.8rem;
+}
+
+.social-r {
+  width: 25%;
+  background-color: #ecb390;
+  margin: auto 5px auto 5px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.facebook-r , .twitter-r , .linkedin-r {
+  padding: 2px 0;
+  width: 25%;
+  color: #a9294f;
+}
+
+/** Variant Card Purple Version */
+.cv-card-v2-p {
+  display: inline-block;
+  text-align: center;
+  background-color: #312c51;
+  margin: 0 10px;
+  width: 22.5%;
+  border-radius: 40px;
+  font-family: 'Montserrat', sans-serif;
+  color: #f1aa9b;
+}
+
+.card-header-v2-p {
+  padding: 15px 0 15px 0;
+}
+
+.card-body-v2-p {
+  background-color: #48426d;
+  margin-bottom: 15px;
+  padding: 5px 20px 5px 20px;
+}
+
+.profile-name-v2-p {
+  font-family: 'Work Sans', sans-serif;
+  color: #f0c38e;
+  font-size: 1.5rem;
+  margin-top: 5px;
+}
+
+.profile-desc-v2 {
+  margin-bottom: 5px;
+}
+
+.contact-link-v2-p {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 8px 12px 8px 12px;
+  background-color: #f0c38e;
+  border-radius: 20px;
+  color: #48426d;
+  margin: 10px 0 10px 0;
+  display: inline-block;
+}
+
+.contact-link-v2-p:hover , .social-v2-p:hover {
+  background-color: #f1aa9b;
+}
+
+.contact-link-v2-p:active , .social-v2-p:active {
+  transform: translateY(3px);
+}
+
+.secondary-par-v2 {
+  margin: 20px auto 20px auto;
+  font-size: 0.8rem;
+}
+
+.card-footer-v2-p {
+  padding-bottom: 25px;
+}
+
+.social-v2-p {
+  width: 22%;
+  background-color: #f0c38e;
+  margin: auto 5px auto 5px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.facebook-v2-p , .twitter-v2-p , .linkedin-v2-p {
+  color: #48426d;
+}
+
+/** Variant Card light blue Version */
+.cv-card-v2-a {
+  display: inline-block;
+  text-align: center;
+  background-color: #5eaaa8;
+  margin: 0 10px;
+  width: 22.5%;
+  border-radius: 40px;
+  font-family: 'Montserrat', sans-serif;
+  color: #0f0f0f;
+  font-weight: bold;
+}
+
+.card-header-v2-a {
+  padding: 15px 0 15px 0;
+}
+
+.card-body-v2-a {
+  background-color: #a3d2ca;
+  margin-bottom: 15px;
+  padding: 5px 20px 5px 20px;
+}
+
+.profile-name-v2-a {
+  font-family: 'Work Sans', sans-serif;
+  color: #db6400;
+  font-size: 1.5rem;
+  margin-top: 5px;
+}
+
+.contact-link-v2-a {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 8px 12px 8px 12px;
+  background-color: #ffba93;
+  border-radius: 20px;
+  color: #5eaaa8;
+  margin: 10px 0 10px 0;
+  display: inline-block;
+}
+
+.contact-link-v2-a:hover , .social-v2-a:hover {
+  background-color: #db6400;
+}
+
+.contact-link-v2-a:active , .social-v2-a:active {
+  transform: translateY(3px);
+}
+
+.card-footer-v2-a {
+  padding-bottom: 20px;
+}
+
+.social-v2-a {
+  width: 22%;
+  background-color: #ffba93;
+  margin: auto 7px auto 7px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.facebook-v2-a , .twitter-v2-a , .linkedin-v2-a {
+  color: #5eaaa8;
+}
