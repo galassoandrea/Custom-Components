@@ -1,0 +1,317 @@
+.buttons-container {
+  display: flex;
+}
+
+/** Rectangular Buttons */
+
+.rectangular-buttons {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 1.5rem;
+  width: 30%;
+  margin: auto;
+}
+
+.button-r {
+  font-family: 'Poppins', sans-serif;
+  margin: 15px 10px;
+  width: 40%;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 15px;
+  color: #ffffff;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button-r:active {
+  transform: translateY(3px);
+}
+
+.btn-1 {
+  background-image: linear-gradient(to right, #8ac4d0, #28527a);
+}
+
+.btn-1:hover {
+  background-image: linear-gradient(to right, #28527a, #8ac4d0);
+}
+
+.btn-2 {
+  background-image: linear-gradient(to right, #a98b98, #4e3d53);
+}
+
+.btn-2:hover {
+  background-image: linear-gradient(to right, #4e3d53, #a98b98);
+}
+
+.btn-3 {
+  background-image: linear-gradient(to right, #ef4f4f, #ee9595, #ffcda3);
+}
+
+.btn-3:hover {
+  background-image: linear-gradient(to right, #ffcda3, #ee9595, #ef4f4f);
+}
+
+.btn-4 {
+  background-image: linear-gradient(to right, #eb6383, #fa9191, #fab7b7);
+}
+
+.btn-4:hover {
+  background-image: linear-gradient(to right, #fab7b7, #fa9191, #eb6383);
+}
+
+.btn-5 {
+  background-image: linear-gradient(to right, #8c0000, #bd2000, #fa1e0e);
+}
+
+.btn-5:hover {
+  background-image: linear-gradient(to right, #fa1e0e, #bd2000, #8c0000);
+}
+
+.btn-6 {
+  background-image: linear-gradient(to right, #f0a500, #f4d160);
+}
+
+.btn-6:hover {
+  background-image: linear-gradient(to right, #f4d160, #f0a500);
+}
+
+.btn-7 {
+  background-image: linear-gradient(to right, #822659, #b34180, #e36bae);
+}
+
+.btn-7:hover {
+  background-image: linear-gradient(to right, #e36bae, #b34180, #822659);
+}
+
+.btn-8 {
+  background-image: linear-gradient(to right, #0f1123, #4e3d53);
+}
+
+.btn-8:hover {
+  background-image: linear-gradient(to right, #4e3d53, #0f1123);
+}
+
+/** Semi-rounded Buttons */
+
+.semi-rounded-buttons {
+  display: flex;
+  text-align: center;
+  font-size: 1.2rem;
+  width: 30%;
+  margin: auto;
+}
+
+.button-sm {
+  font-family: 'Poppins', sans-serif;
+  margin: 15px 10px;
+  text-decoration: none;
+  border-radius: 15px;
+  color: #ffffff;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button-sm:active {
+  transform: translateY(3px);
+}
+
+.sm-facebook , .sm-twitter , .sm-instagram , .sm-linkedin , .sm-pinterest {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-sm-fb {
+  padding: 15px 24px;
+}
+
+.btn-sm-tw {
+  padding: 15px 20px;
+}
+
+.btn-sm-ig {
+  padding: 15px 21px;
+}
+
+.btn-sm-li {
+  padding: 15px 21px;
+}
+
+.btn-sm-pr {
+  padding: 15px 23px;
+}
+
+.btn-sm-1 {
+  background-image: linear-gradient(to right, #8ac4d0, #28527a);
+}
+
+.btn-sm-1:hover {
+  background-image: linear-gradient(to right, #28527a, #8ac4d0);
+}
+
+.btn-sm-2 {
+  background-image: linear-gradient(to right, #a98b98, #4e3d53);
+}
+
+.btn-sm-2:hover {
+  background-image: linear-gradient(to right, #4e3d53, #a98b98);
+}
+
+.btn-sm-3 {
+  background-image: linear-gradient(to right, #ef4f4f, #ee9595, #ffcda3);
+}
+
+.btn-sm-3:hover {
+  background-image: linear-gradient(to right, #ffcda3, #ee9595, #ef4f4f);
+}
+
+.btn-sm-4 {
+  background-image: linear-gradient(to right, #eb6383, #fa9191, #fab7b7);
+}
+
+.btn-sm-4:hover {
+  background-image: linear-gradient(to right, #fab7b7, #fa9191, #eb6383);
+}
+
+.btn-sm-5 {
+  background-image: linear-gradient(to right, #8c0000, #bd2000, #fa1e0e);
+}
+
+.btn-sm-5:hover {
+  background-image: linear-gradient(to right, #fa1e0e, #bd2000, #8c0000);
+}
+
+.btn-sm-6 {
+  background-image: linear-gradient(to right, #f0a500, #f4d160);
+}
+
+.btn-sm-6:hover {
+  background-image: linear-gradient(to right, #f4d160, #f0a500);
+}
+
+.btn-sm-7 {
+  background-image: linear-gradient(to right, #822659, #b34180, #e36bae);
+}
+
+.btn-sm-7:hover {
+  background-image: linear-gradient(to right, #e36bae, #b34180, #822659);
+}
+
+.btn-sm-8 {
+  background-image: linear-gradient(to right, #0f1123, #4e3d53);
+}
+
+.btn-sm-8:hover {
+  background-image: linear-gradient(to right, #4e3d53, #0f1123);
+}
+
+/** Rounded Buttons */
+
+.rounded-buttons {
+  display: flex;
+  text-align: center;
+  font-size: 1.2rem;
+  width: 30%;
+  margin: auto;
+}
+
+.button-rnd {
+  font-family: 'Poppins', sans-serif;
+  margin: 15px 10px;
+  text-decoration: none;
+  border-radius: 50px;
+  color: #ffffff;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button-rnd:active {
+  transform: translateY(3px);
+}
+
+.rnd-facebook , .rnd-twitter , .rnd-instagram , .rnd-linkedin , .rnd-pinterest {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-rnd-fb {
+  padding: 15px 24px;
+}
+
+.btn-rnd-tw {
+  padding: 15px 20px;
+}
+
+.btn-rnd-ig {
+  padding: 15px 21px;
+}
+
+.btn-rnd-li {
+  padding: 15px 21px;
+}
+
+.btn-rnd-pr {
+  padding: 15px 23px;
+}
+
+.btn-rnd-1 {
+  background-image: linear-gradient(to right, #8ac4d0, #28527a);
+}
+
+.btn-rnd-1:hover {
+  background-image: linear-gradient(to right, #28527a, #8ac4d0);
+}
+
+.btn-rnd-2 {
+  background-image: linear-gradient(to right, #a98b98, #4e3d53);
+}
+
+.btn-rnd-2:hover {
+  background-image: linear-gradient(to right, #4e3d53, #a98b98);
+}
+
+.btn-rnd-3 {
+  background-image: linear-gradient(to right, #ef4f4f, #ee9595, #ffcda3);
+}
+
+.btn-rnd-3:hover {
+  background-image: linear-gradient(to right, #ffcda3, #ee9595, #ef4f4f);
+}
+
+.btn-rnd-4 {
+  background-image: linear-gradient(to right, #eb6383, #fa9191, #fab7b7);
+}
+
+.btn-rnd-4:hover {
+  background-image: linear-gradient(to right, #fab7b7, #fa9191, #eb6383);
+}
+
+.btn-rnd-5 {
+  background-image: linear-gradient(to right, #8c0000, #bd2000, #fa1e0e);
+}
+
+.btn-rnd-5:hover {
+  background-image: linear-gradient(to right, #fa1e0e, #bd2000, #8c0000);
+}
+
+.btn-rnd-6 {
+  background-image: linear-gradient(to right, #f0a500, #f4d160);
+}
+
+.btn-rnd-6:hover {
+  background-image: linear-gradient(to right, #f4d160, #f0a500);
+}
+
+.btn-rnd-7 {
+  background-image: linear-gradient(to right, #822659, #b34180, #e36bae);
+}
+
+.btn-rnd-7:hover {
+  background-image: linear-gradient(to right, #e36bae, #b34180, #822659);
+}
+
+.btn-rnd-8 {
+  background-image: linear-gradient(to right, #0f1123, #4e3d53);
+}
+
+.btn-rnd-8:hover {
+  background-image: linear-gradient(to right, #4e3d53, #0f1123);
+}
